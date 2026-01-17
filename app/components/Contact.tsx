@@ -6,22 +6,22 @@ export default function Contact() {
   const t = useTranslations('contact');
 
   return (
-    <section id="contact" className="py-16 px-4 bg-white">
+    <section id="contact" className="py-6 sm:py-8 md:py-16 px-2 sm:px-4 bg-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
           {t('title')}
         </h2>
-        <div className="w-24 h-1 bg-brand mx-auto mb-6"></div>
-        <p className="text-gray-700 mb-12">
+        <div className="w-20 sm:w-24 h-1 bg-brand mx-auto mb-3 sm:mb-4 md:mb-6"></div>
+        <p className="text-xs sm:text-sm md:text-base text-gray-700 mb-6 sm:mb-8 md:mb-12 px-2">
           {t('description')}
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 sm:gap-6 md:gap-8 lg:gap-12">
           {/* Address */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-brand rounded-full flex items-center justify-center mb-2 sm:mb-3 md:mb-4">
               <svg
-                className="w-8 h-8 text-white"
+                className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -40,14 +40,14 @@ export default function Contact() {
                 />
               </svg>
             </div>
-            <p className="text-gray-700">{t('address')}</p>
+            <p className="text-xs sm:text-sm md:text-base text-gray-700">{t('address')}</p>
           </div>
 
           {/* Email */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-brand rounded-full flex items-center justify-center mb-2 sm:mb-3 md:mb-4">
               <svg
-                className="w-8 h-8 text-white"
+                className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -60,14 +60,14 @@ export default function Contact() {
                 />
               </svg>
             </div>
-            <p className="text-gray-700">{t('email')}</p>
+            <p className="text-xs sm:text-sm md:text-base text-gray-700">{t('email')}</p>
           </div>
 
           {/* Phone */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-brand rounded-full flex items-center justify-center mb-2 sm:mb-3 md:mb-4">
               <svg
-                className="w-8 h-8 text-white"
+                className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -80,7 +80,7 @@ export default function Contact() {
                 />
               </svg>
             </div>
-            <p className="text-gray-700">{t('phone')}</p>
+            <p className="text-xs sm:text-sm md:text-base text-gray-700">{t('phone')}</p>
           </div>
         </div>
       </div>

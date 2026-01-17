@@ -9,17 +9,17 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center bg-no-repeat"
+      className="relative min-h-[350px] sm:min-h-[400px] md:min-h-[600px] flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('/assets/baby_hero_1.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black/40"></div>
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+      <div className="relative z-10 text-center text-white px-2 sm:px-4 max-w-4xl mx-auto py-6 sm:py-8 md:py-0">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 md:mb-6">
           {t('title')}
         </h1>
-        <p className="text-2xl md:text-3xl">
+        <p className="text-base sm:text-lg md:text-2xl lg:text-3xl px-2">
           {t('subtitle')}
         </p>
       </div>

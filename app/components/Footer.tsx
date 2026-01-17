@@ -7,25 +7,25 @@ export default function Footer() {
   const t = useTranslations('footer');
 
   return (
-    <footer className="bg-gray-800 text-white py-8 px-4">
+    <footer className="bg-gray-800 text-white py-4 sm:py-6 md:py-8 px-2 sm:px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4">
           <div className="text-center md:text-left">
-            <p className="text-gray-300">
+            <p className="text-xs sm:text-sm md:text-base text-gray-300">
               © {new Date().getFullYear()} Markus Co. {t('rights')}
             </p>
           </div>
-          <div className="flex gap-6 items-center">
+          <div className="flex gap-3 sm:gap-4 md:gap-6 items-center">
             <Link
               href="/privacy"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="text-xs sm:text-sm md:text-base text-gray-300 hover:text-white transition-colors"
             >
               {t('privacy')}
             </Link>
             <span className="text-gray-600">|</span>
             <Link
               href="/terms"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="text-xs sm:text-sm md:text-base text-gray-300 hover:text-white transition-colors"
             >
               {t('terms')}
             </Link>
