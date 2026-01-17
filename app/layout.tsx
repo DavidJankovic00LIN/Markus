@@ -1,19 +1,9 @@
-import type { Metadata } from "next";
-import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Markus",
-  description: "Next.js project with TypeScript and Tailwind CSS",
-};
+import './globals.css';
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+}) {
+  return children;
 }

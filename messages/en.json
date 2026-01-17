@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "collaboration": "Collaboration",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Markus Co",
+    "subtitle": "Wet wipes for all your needs"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Markus Co is a family company from Valjevo, founded in 1994, with a clear mission to provide consumers with quality and affordable personal hygiene products. With modern equipment and a dedicated team, we develop our own brands and successfully cooperate with domestic and international partners, building trust through quality, responsibility and innovation."
+  },
+  "whyUs": {
+    "title": "Why Us",
+    "tradition": {
+      "title": "30 Years of Tradition",
+      "description": "More than three decades of experience and dedication to quality confirm our place in the market."
+    },
+    "certified": {
+      "title": "Certified Production",
+      "description": "Our products are created under controlled conditions, respecting the highest standards of quality and safety."
+    },
+    "dedication": {
+      "title": "Customer Dedication",
+      "description": "Our philosophy is based on listening to your needs and continuous improvement of our products and services."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "Our line of wet wipes is designed to meet the most diverse needs - from gentle baby care, through universal cleaning, to specialized disinfection solutions. Quality, practicality, and reliability in every package.",
+    "babyFit": {
+      "title": "Baby Fit Wet Wipes",
+      "description": "Baby Fit wet wipes keep your baby's skin soft and fresh. Gently clean and nourish with every diaper change. Soft and full, alcohol-free, pH neutral, and enriched with Vitamin E. Perfect for gentle cleaning of baby's skin without water. Can be used by the whole family.",
+      "packaging": "Packaging: 72 and 64 Pieces",
+      "features": {
+        "daily": "For daily care",
+        "soft": "Ultra soft",
+        "baby": "For babies"
+      }
+    },
+    "perfecto": {
+      "title": "Perfecto Wet Wipes",
+      "description": "Perfecto Fit Universal wet wipes remove dirt from all smooth surfaces (furniture and laminated surfaces, tiles and laminate, ceramics, wall tiles, plastic), while Perfecto Fit Wood Surface are used to remove dirt from wooden furniture and wood-like materials with oil to care for them, giving them shine.",
+      "packaging": "Packaging: 50 Pieces",
+      "features": {
+        "easy": "Easy to clean",
+        "shine": "Shine and protection",
+        "universal": "Universal"
+      }
+    },
+    "universal": {
+      "title": "Universal Wet Wipes",
+      "description": "Universal Fit and Family Fit wet wipes in family packaging are intended for hand and face hygiene. Soft, refreshing, pH neutral and non-allergenic. Ideal for waterless cleaning.",
+      "packaging": "Packaging: 80 Pieces",
+      "features": {
+        "family": "Family",
+        "universal": "Universal",
+        "daily": "For every day"
+      }
+    },
+    "disinfect": {
+      "title": "Desinfect Wet Wipes",
+      "description": "Disinfect Fit Antibacterial wet wipes are intended for the disinfection of skin and objects. Exclusively for external use. Pocket packaging allows you to carry them everywhere with you.",
+      "packaging": "Packaging: 15 Pieces",
+      "features": {
+        "antibacterial": "Antibacterial",
+        "multipurpose": "Multipurpose",
+        "pocket": "Pocket"
+      }
+    },
+    "wet": {
+      "title": "Wet",
+      "description": "Wet wet wipes without alcohol are specially designed to clean, nourish and refresh the skin. Pocket packaging allows you to carry them everywhere with you. Ideal for the whole family.",
+      "packaging": "Packaging: 15 Pieces",
+      "features": {
+        "daily": "For every day",
+        "multipurpose": "Multipurpose",
+        "pocket": "Pocket"
+      }
+    },
+    "eko": {
+      "title": "Eko baby wipes",
+      "description": "Gently clean baby's skin in a natural way. They contain biodegradable fabric and ingredients from renewable sources. Soft and full, alcohol-free, maintain the natural pH value of the skin and are non-allergenic. The whole family can use them.",
+      "packaging": "Packaging: 72 Pieces",
+      "features": {
+        "natural": "Natural",
+        "baby": "For babies",
+        "soft": "Ultra soft"
+      }
+    },
+    "close": "Close"
+  },
+  "collaboration": {
+    "title": "Contract Manufacturing",
+    "description": "We provide contract manufacturing services according to your specifications and requirements. Our experience and technology enable us to produce products that meet your needs."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "For all questions, contact us via email, phone, or at our address",
+    "address": "Karadjordjeva 123 Valjevo",
+    "email": "office@markus.rs",
+    "phone": "+381 63 222 333"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}
