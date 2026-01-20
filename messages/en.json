@@ -16,17 +16,22 @@
   },
   "whyUs": {
     "title": "Why Us",
+    "readMore": "Read more",
+    "close": "Close",
     "tradition": {
       "title": "30 Years of Tradition",
-      "description": "More than three decades of experience and dedication to quality confirm our place in the market."
+      "description": "More than three decades of experience and dedication to quality confirm our place in the market.",
+      "details": "Founded in 1994, we have continuously built our reputation through consistent product quality and business reliability. Our long-standing tradition is the result of dedication to every detail of the production process and continuous investment in technology and development."
     },
     "certified": {
       "title": "Certified Production",
-      "description": "Our products are created under controlled conditions, respecting the highest standards of quality and safety."
+      "description": "Our products are created under controlled conditions, respecting the highest standards of quality and safety.",
+      "details": "All our products undergo strict quality controls and meet all relevant safety standards. Our production is certified and regularly undergoes audits to ensure that every product leaving our factory meets the highest standards of quality and safety."
     },
     "dedication": {
       "title": "Customer Dedication",
-      "description": "Our philosophy is based on listening to your needs and continuous improvement of our products and services."
+      "description": "Our philosophy is based on listening to your needs and continuous improvement of our products and services.",
+      "details": "Your satisfaction is our priority. We listen to your feedback and continuously work on improving our products and services. Our team is always ready to answer your questions and help you find the ideal solution for your needs."
     }
   },
   "products": {
@@ -92,7 +97,8 @@
         "soft": "Ultra soft"
       }
     },
-    "close": "Close"
+    "close": "Close",
+    "readMore": "Read more"
   },
   "collaboration": {
     "title": "Contract Manufacturing",

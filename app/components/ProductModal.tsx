@@ -54,20 +54,20 @@ export default function ProductModal({
               {productKey === 'babyFit' && (
                 <>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">☀️</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/beba_3.png" alt={t('features.daily')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.daily')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🪶</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/pero.png" alt={t('features.soft')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.soft')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">👶</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/sunce.png" alt={t('features.baby')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.baby')}</span>
                   </div>
@@ -76,20 +76,20 @@ export default function ProductModal({
               {productKey === 'perfecto' && (
                 <>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-yellow-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🧹</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-yellow-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/lako_ciscenje.png" alt={t('features.easy')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.easy')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-yellow-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">✨</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-yellow-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/sjaj.png" alt={t('features.shine')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.shine')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-yellow-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🌐</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-yellow-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/univerzal.png" alt={t('features.universal')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.universal')}</span>
                   </div>
@@ -98,20 +98,20 @@ export default function ProductModal({
               {productKey === 'universal' && (
                 <>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🏠</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/family.png" alt={t('features.family')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.family')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🌐</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/univerzal.png" alt={t('features.universal')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.universal')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">📅</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/m_ic_1.png" alt={t('features.daily')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.daily')}</span>
                   </div>
@@ -120,42 +120,42 @@ export default function ProductModal({
               {productKey === 'disinfect' && (
                 <>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🦠</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/antibak.png" alt={t('features.antibacterial')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.antibacterial')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🔄</span>
-                    </div>
-                    <span className="text-xs md:text-sm text-gray-700">{t('features.multipurpose')}</span>
-                  </div>
-                  <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">👛</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/dzepne.png" alt={t('features.pocket')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.pocket')}</span>
+                  </div>
+                  <div className="flex items-center gap-1 md:gap-2">
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/univerzal.png" alt={t('features.multipurpose')} width={24} height={24} className="w-full h-full object-contain" />
+                    </div>
+                    <span className="text-xs md:text-sm text-gray-700">{t('features.multipurpose')}</span>
                   </div>
                 </>
               )}
               {productKey === 'wet' && (
                 <>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">📅</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-orange-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/family.png" alt={t('features.daily')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.daily')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🔄</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-orange-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/univerzal.png" alt={t('features.multipurpose')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.multipurpose')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">👛</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-orange-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/m_ic_1.png" alt={t('features.pocket')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.pocket')}</span>
                   </div>
@@ -164,20 +164,20 @@ export default function ProductModal({
               {productKey === 'eko' && (
                 <>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🌿</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/beba_3.png" alt={t('features.natural')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.natural')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">👶</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/pero.png" alt={t('features.baby')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.baby')}</span>
                   </div>
                   <div className="flex items-center gap-1 md:gap-2">
-                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-lg md:text-2xl">🪶</span>
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center p-1 md:p-2">
+                      <Image src="/assets/prirodno.png" alt={t('features.soft')} width={24} height={24} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm text-gray-700">{t('features.soft')}</span>
                   </div>

@@ -51,8 +51,7 @@ export default function Products() {
           {products.map((product) => (
             <div
               key={product.key}
-              onClick={() => setSelectedProduct(product.key)}
-              className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:shadow-xl transition-shadow transform hover:-translate-y-1"
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow transform hover:-translate-y-1 flex flex-col"
             >
               <div className="relative h-40 sm:h-48 md:h-64 bg-gray-100">
                 <Image
@@ -62,13 +61,19 @@ export default function Products() {
                   className="object-contain p-2 sm:p-4"
                 />
               </div>
-              <div className="p-3 sm:p-4 md:p-6">
+              <div className="p-3 sm:p-4 md:p-6 flex flex-col flex-grow">
                 <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-1 sm:mb-2">
                   {t(`${product.key}.title`)}
                 </h3>
-                <p className="text-gray-600 text-xs sm:text-xs md:text-sm line-clamp-3">
+                <p className="text-gray-600 text-xs sm:text-xs md:text-sm line-clamp-3 mb-3 sm:mb-4 flex-grow">
                   {t(`${product.key}.description`)}
                 </p>
+                <button
+                  onClick={() => setSelectedProduct(product.key)}
+                  className="mt-auto text-xs sm:text-sm md:text-base text-brand font-medium hover:underline transition-colors text-left"
+                >
+                  {t('readMore')}
+                </button>
               </div>
             </div>
           ))}

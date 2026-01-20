@@ -16,25 +16,30 @@
   },
   "whyUs": {
     "title": "Zašto mi",
+    "readMore": "Pročitaj više",
+    "close": "Zatvori",
     "tradition": {
       "title": "Tradicija duga 30 godina",
-      "description": "Više od tri decenije iskustva i posvećenosti kvalitetu potvrđuju naše mesto na tržištu."
+      "description": "Više od tri decenije iskustva i posvećenosti kvalitetu potvrđuju naše mesto na tržištu.",
+      "details": "Osnovani 1994. godine, kontinuirano gradimo našu reputaciju kroz konzistentnu kvalitetu proizvoda i pouzdanost u poslovanju. Naša dugogodišnja tradicija je rezultat posvećenosti svakom detalju proizvodnog procesa i kontinuiranog investiranja u tehnologiju i razvoj."
     },
     "certified": {
       "title": "Sertifikovana proizvodnja",
-      "description": "Naši proizvodi nastaju u kontrolisanim uslovima, uz poštovanje najviših standarda kvaliteta i bezbednosti."
+      "description": "Naši proizvodi nastaju u kontrolisanim uslovima, uz poštovanje najviših standarda kvaliteta i bezbednosti.",
+      "details": "Svi naši proizvodi prolaze kroz stroge kontrole kvaliteta i ispunjavaju sve relevantne standarde bezbednosti. Naša proizvodnja je sertifikovana i redovno se podvrgava auditima kako bismo osigurali da svaki proizvod koji napusti našu fabriku zadovoljava najviše standarde kvaliteta i bezbednosti."
     },
     "dedication": {
       "title": "Posvećenost kupcima",
-      "description": "Naša filozofija temelji se na slušanju vaših potreba i neprekidnom unapređenju naših proizvoda i usluga."
+      "description": "Naša filozofija temelji se na slušanju vaših potreba i neprekidnom unapređenju naših proizvoda i usluga.",
+      "details": "Vaša zadovoljstva je naš prioritet. Slušamo vaše povratne informacije i kontinuirano radimo na poboljšanju naših proizvoda i usluga. Naš tim je uvek spreman da odgovori na vaša pitanja i pomogne vam da pronađete idealno rešenje za vaše potrebe."
     }
   },
   "products": {
     "title": "Naši proizvodi",
     "description": "Naša linija vlažnih maramica osmišljena je da zadovolji najrazličitije potrebe - od nežne nege beba, preko univerzalnog čišćenja, do specijalizovanih dezinfekcionih rešenja. Kvalitet, praktičnost i pouzdanost u svakom pakovanju.",
     "babyFit": {
-      "title": "Baby Fit Wet Wipes",
-      "description": "Baby Fit wet wipes keep your baby's skin soft and fresh. Gently clean and nourish with every diaper change. Soft and full, alcohol-free, pH neutral, and enriched with Vitamin E. Perfect for gentle cleaning of baby's skin without water. Can be used by the whole family.",
+      "title": "Baby Fit Vlažne Maramice",
+      "description": "Baby Fit vlažne maramice održavaju bebinu kožu mekom i svežom. Nežno čiste i neguju sa svakom promenom pelene. Meke i pune, bezalkoholne, pH neutralne i obogaćene vitaminom E. Savršene za nežno čišćenje bebi kože bez vode. Može ih koristiti cela porodica.",
       "packaging": "Pakovanje: 72 i 64 Komada",
       "features": {
         "daily": "Za svakodnevnu negu",
@@ -53,8 +58,8 @@
       }
     },
     "universal": {
-      "title": "Universal Wet Wipes",
-      "description": "Universal Fit and Family Fit wet wipes in family packaging are intended for hand and face hygiene. Soft, refreshing, pH neutral and non-allergenic. Ideal for waterless cleaning.",
+      "title": "Universal Vlažne Maramice",
+      "description": "Universal Fit i Family Fit vlažne maramice u porodičnom pakovanju namenjene su za higijenu ruku i lica. Meke, osvežavajuće, pH neutralne i nealergične. Idealne za čišćenje bez vode.",
       "packaging": "Pakovanje: 80 Komada",
       "features": {
         "family": "Porodične",
@@ -92,7 +97,8 @@
         "soft": "Ultra nežne"
       }
     },
-    "close": "Zatvori"
+    "close": "Zatvori",
+    "readMore": "Pročitaj više"
   },
   "collaboration": {
     "title": "Uslužna proizvodnja",
