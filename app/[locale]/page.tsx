@@ -6,10 +6,11 @@ import Products from '../components/Products';
 import Collaboration from '../components/Collaboration';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Home() {
   return (
-    <main className="scroll-smooth">
+    <main className="scroll-smooth pt-[140px]">
       <Navigation />
       <Hero />
       <About />
@@ -18,6 +19,7 @@ export default function Home() {
       <Collaboration />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }

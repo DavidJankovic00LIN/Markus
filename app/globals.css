@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Helpers for 3D flip effect */
+.rotate-y-0 {
+  transform: rotateY(0deg);
+}
+
+.rotate-y-90 {
+  transform: rotateY(90deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
