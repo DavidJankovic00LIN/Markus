@@ -52,12 +52,13 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-transform duration-300 ease-out ${
+      className={`fixed top-0 left-0 right-0 z-50 bg-white transition-transform duration-300 ease-out border-0 outline-none ${
         hidden ? '-translate-y-full' : 'translate-y-0'
       }`}
+      style={{ border: 'none', outline: 'none', boxShadow: 'none' }}
     >
       {/* Logo Section - 100px height on desktop, smaller on mobile */}
-      <div className="h-[70px] sm:h-[80px] md:h-[100px] flex items-center justify-center bg-white px-1 sm:px-2 md:px-4 relative">
+      <div className="h-[70px] sm:h-[80px] md:h-[100px] flex items-center justify-center bg-white px-1 sm:px-2 md:px-4 relative border-0">
         <Image
           src="/assets/markus_logo.png"
           alt="Markus Logo"
@@ -72,13 +73,7 @@ export default function Navigation() {
       </div>
 
       {/* Banner Section - 60px height on desktop, scrollable on mobile */}
-      <div className="h-[44px] sm:h-[50px] md:h-[60px] bg-brand flex items-center justify-center gap-1 sm:gap-2 md:gap-8 px-1 sm:px-2 md:px-4 overflow-x-auto">
-        <button
-          onClick={() => scrollToSection('home')}
-          className="text-white hover:opacity-80 transition-colors font-medium text-xs sm:text-sm md:text-base whitespace-nowrap px-0.5 sm:px-1 md:px-2"
-        >
-          {t('home')}
-        </button>
+      <div className="h-[44px] sm:h-[50px] md:h-[60px] bg-brand flex items-center justify-center gap-1 sm:gap-2 md:gap-8 px-1 sm:px-2 md:px-4 overflow-x-auto border-0 border-b-0" style={{ borderBottom: 'none', boxShadow: 'none' }}>
         <button
           onClick={() => scrollToSection('about')}
           className="text-white hover:opacity-80 transition-colors font-medium text-xs sm:text-sm md:text-base whitespace-nowrap px-0.5 sm:px-1 md:px-2"

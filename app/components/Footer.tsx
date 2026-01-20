@@ -8,7 +8,7 @@ export default function Footer() {
   const t = useTranslations('footer');
 
   return (
-    <footer className="bg-white text-gray-900 border-t border-gray-200 shadow-[0_-1px_0_rgba(0,0,0,0.04)] px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12">
+    <footer className="bg-white text-gray-900 border-t border-gray-200 shadow-[0_-1px_0_rgba(0,0,0,0.04)] px-[41px] sm:px-6 md:px-8 py-8 sm:py-10 md:py-12">
       <div className="max-w-6xl mx-auto space-y-6 sm:space-y-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 sm:gap-8">
           {/* Brand / Logo */}

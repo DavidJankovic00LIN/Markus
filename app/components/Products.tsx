@@ -37,7 +37,7 @@ export default function Products() {
   ];
 
   return (
-    <section id="products" className="py-6 sm:py-8 md:py-16 px-2 sm:px-4 bg-white">
+    <section id="products" className="py-6 sm:py-8 md:py-16 px-[33px] sm:px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
           {t('title')}

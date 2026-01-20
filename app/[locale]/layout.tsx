@@ -3,6 +3,13 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import type { Metadata } from "next";
+import { Dancing_Script } from 'next/font/google';
+
+const dancingScript = Dancing_Script({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-dancing-script',
+});
 
 export const metadata: Metadata = {
   title: "Markus - Vlžne maramice",
@@ -29,7 +36,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={dancingScript.variable}>
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}

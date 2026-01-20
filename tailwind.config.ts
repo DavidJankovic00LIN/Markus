@@ -13,6 +13,9 @@ const config: Config = {
         foreground: "var(--foreground)",
         brand: "#d2b277",
       },
+      fontFamily: {
+        'cursive': ['var(--font-dancing-script)', 'cursive'],
+      },
     },
   },
   plugins: [],

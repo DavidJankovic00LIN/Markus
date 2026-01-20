@@ -25,7 +25,7 @@ export default function WhyUs() {
   ];
 
   return (
-    <section className="py-6 sm:py-8 md:py-16 px-2 sm:px-4 bg-gray-50">
+    <section className="py-6 sm:py-8 md:py-16 px-[33px] sm:px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-6 sm:mb-8 md:mb-12">
           {t('title')}
