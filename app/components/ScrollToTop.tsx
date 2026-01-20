@@ -69,7 +69,22 @@ export default function ScrollToTop() {
           strokeLinecap="round"
         />
       </svg>
-      <span className="relative text-xl font-bold leading-none">&#8593;</span>
+      <svg
+        className="relative h-5 w-5"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <g transform="translate(0.5,0)">
+          <path
+            d="M12 7.5l-4 4m4-4l4 4M12 7.5v9"
+            fill="none"
+            stroke="#b28f4e"
+            strokeWidth={2.6}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </g>
+      </svg>
     </button>
   );
 }

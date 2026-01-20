@@ -43,11 +43,11 @@ export default function Contact() {
   return (
     <section id="contact" className="py-10 sm:py-12 md:py-20 px-4 sm:px-6 bg-white">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center md:text-left mb-6 sm:mb-8 md:mb-10">
+        <div className="text-center mb-6 sm:mb-8 md:mb-10">
           <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
             {t('title')}
           </h2>
-          <div className="w-20 sm:w-24 h-1 bg-brand md:mx-0 mx-auto" />
+          <div className="w-20 sm:w-24 h-1 bg-brand mx-auto" />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start">

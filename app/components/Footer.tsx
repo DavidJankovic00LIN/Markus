@@ -8,7 +8,7 @@ export default function Footer() {
   const t = useTranslations('footer');
 
   return (
-    <footer className="bg-slate-950 text-gray-100 px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12">
+    <footer className="bg-white text-gray-900 border-t border-gray-200 shadow-[0_-1px_0_rgba(0,0,0,0.04)] px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12">
       <div className="max-w-6xl mx-auto space-y-6 sm:space-y-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 sm:gap-8">
           {/* Brand / Logo */}
@@ -23,7 +23,7 @@ export default function Footer() {
                 priority
               />
             </div>
-            <p className="text-xs sm:text-sm md:text-base max-w-xs text-gray-300">
+            <p className="text-xs sm:text-sm md:text-base max-w-xs text-gray-700">
               {t('tagline')}
             </p>
           </div>
@@ -31,20 +31,20 @@ export default function Footer() {
           {/* Links */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 md:gap-8">
             <div className="flex flex-col gap-1 sm:gap-1.5">
-              <span className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-gray-400">
+              <span className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-gray-600">
                 {t('legal')}
               </span>
               <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
                 <Link
                   href="/privacy"
-                  className="text-xs sm:text-sm md:text-base text-gray-200 hover:text-white transition-colors"
+                  className="text-xs sm:text-sm md:text-base text-gray-900 hover:text-brand transition-colors"
                 >
                   {t('privacy')}
                 </Link>
-                <span className="hidden sm:inline text-gray-600">/</span>
+                <span className="hidden sm:inline text-gray-400">/</span>
                 <Link
                   href="/terms"
-                  className="text-xs sm:text-sm md:text-base text-gray-200 hover:text-white transition-colors"
+                  className="text-xs sm:text-sm md:text-base text-gray-900 hover:text-brand transition-colors"
                 >
                   {t('terms')}
                 </Link>
@@ -54,8 +54,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom line */}
-        <div className="border-t border-slate-800 pt-4 sm:pt-5 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-[10px] sm:text-xs md:text-sm text-gray-500 text-center sm:text-left">
+        <div className="border-t border-gray-200 pt-4 sm:pt-5 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-[10px] sm:text-xs md:text-sm text-gray-600 text-center sm:text-left">
             © {new Date().getFullYear()} Markus Co. {t('rights')}
           </p>
         </div>
