@@ -8,28 +8,32 @@ export default function WhyUs() {
 
   const reasons = [
     {
-      icon: '/assets/m_ic_1.png',
+      icon: '/assets/ikonica_vreme.png',
       title: t('tradition.title'),
       description: t('tradition.description'),
     },
     {
-      icon: '/assets/m_ic_2.png',
+      icon: '/assets/ikonica_pouzdanost.png',
       title: t('certified.title'),
       description: t('certified.description'),
     },
     {
-      icon: '/assets/ikonica_3.png',
+      icon: '/assets/ikonica_l.png',
       title: t('dedication.title'),
       description: t('dedication.description'),
     },
   ];
 
   return (
-    <section className="py-6 sm:py-8 md:py-16 px-[33px] sm:px-4 bg-gray-50">
+    <section
+      className="py-6 sm:py-8 md:py-16 px-[33px] sm:px-4 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/assets/pozadina-2.png')" }}
+    >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-6 sm:mb-8 md:mb-12">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
           {t('title')}
         </h2>
+        <div className="w-20 sm:w-24 h-1 bg-brand mx-auto mb-6 sm:mb-8 md:mb-12"></div>
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-8">
           {reasons.map((reason, index) => (
             <div
