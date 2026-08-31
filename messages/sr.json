@@ -10,9 +10,44 @@
     "title": "Markus Co",
     "subtitle": "Vlažne maramice za sve vaše potrebe"
   },
+  "trustBar": {
+    "since": {
+      "value": "Od 1994.",
+      "label": "Porodična proizvodnja"
+    },
+    "location": {
+      "value": "Valjevo, Srbija",
+      "label": "Gde radimo"
+    },
+    "brands": {
+      "value": "Sopstveni brendovi",
+      "label": "Baby Fit, Perfecto, Universal…"
+    },
+    "contract": {
+      "value": "Uslužna proizvodnja",
+      "label": "Za partnere"
+    },
+    "ctaProducts": "Naši proizvodi",
+    "ctaPartner": "Postanite partner"
+  },
   "about": {
     "title": "O nama",
-    "description": "Markus Co je porodična firma iz Valjeva, osnovana 1994. godine, sa jasnom misijom da potrošačima obezbedi kvalitetne i pristupačne proizvode za ličnu higijenu. Sa savremenom opremom i posvećenim timom, razvijamo sopstvene brendove i uspešno sarađujemo sa domaćim i inostranim partnerima, gradeći poverenje kroz kvalitet, odgovornost i inovacije."
+    "description": "Markus Co je porodična firma iz Valjeva, osnovana 1994. godine, sa jasnom misijom da potrošačima obezbedi kvalitetne i pristupačne proizvode za ličnu higijenu. Sa savremenom opremom i posvećenim timom, razvijamo sopstvene brendove i uspešno sarađujemo sa domaćim i inostranim partnerima, gradeći poverenje kroz kvalitet, odgovornost i inovacije.",
+    "mission": "Verujemo da higijena treba da bude jednostavna, pristupačna i bezbedna — kako za najmlađe, tako i za celu porodicu. Istovremeno, partnerima nudimo pouzdanu proizvodnju, jasnu komunikaciju i kvalitet na koji mogu da se oslone.",
+    "stats": {
+      "year": {
+        "value": "1994",
+        "label": "Godina osnivanja"
+      },
+      "experience": {
+        "value": "30+",
+        "label": "Godina iskustva"
+      },
+      "home": {
+        "value": "Valjevo",
+        "label": "Naš dom"
+      }
+    }
   },
   "whyUs": {
     "title": "Zašto mi",
@@ -36,7 +71,12 @@
   },
   "products": {
     "title": "Naši proizvodi",
-    "description": "Naša linija vlažnih maramica osmišljena je da zadovolji najrazličitije potrebe - od nežne nege beba, preko univerzalnog čišćenja, do specijalizovanih dezinfekcionih rešenja. Kvalitet, praktičnost i pouzdanost u svakom pakovanju.",
+    "description": "Naša linija vlažnih maramica osmišljena je da zadovolji najrazličitije potrebe - od nežne nege beba, preko univerzalnog čišćenja, do specijalizovanih dezinfekcionih rešenja. Kvalitet, praktičnost i pouzdanost u svakom pakovanju. Linija je namenjena i maloprodaji i partnerima koji traže pouzdanog proizvođača.",
+    "categories": {
+      "baby": "Nega beba",
+      "cleaning": "Čišćenje",
+      "hygiene": "Higijena"
+    },
     "babyFit": {
       "title": "Baby Fit Vlažne Maramice",
       "description": "Baby Fit vlažne maramice održavaju bebinu kožu mekom i svežom. Nežno čiste i neguju sa svakom promenom pelene. Meke i pune, bezalkoholne, pH neutralne i obogaćene vitaminom E. Savršene za nežno čišćenje bebi kože bez vode. Može ih koristiti cela porodica.",
@@ -102,17 +142,38 @@
   },
   "collaboration": {
     "title": "Uslužna proizvodnja",
-    "description": "Pružamo usluge uslužne proizvodnje prema vašim specifikacijama i zahtevima. Naša iskustva i tehnologija omogućavaju nam da proizvedemo proizvode koji odgovaraju vašim potrebama."
+    "description": "Pored sopstvenih brendova, nudimo uslužnu proizvodnju i private label rešenja po vašoj specifikaciji. Vi donosite ideju i zahteve — mi proizvodimo, pakujemo i pomažemo da proizvod stigne na tržište.",
+    "points": {
+      "brand": {
+        "title": "Razvoj po vašem brendu",
+        "text": "Proizvodimo vlažne maramice prema vašim specifikacijama, uz poštovanje identiteta vašeg brenda."
+      },
+      "packaging": {
+        "title": "Prilagođeno pakovanje",
+        "text": "Format, količina i dizajn pakovanja mogu se uskladiti sa vašim tržištem i kupcima."
+      },
+      "partnership": {
+        "title": "Dugoročna saradnja",
+        "text": "Gradimo odnose na poverenju, jasnoj komunikaciji i stabilnom kvalitetu iz isporuke u isporuku."
+      }
+    },
+    "cta": "Kontaktirajte nas"
   },
   "contact": {
     "title": "Kontakt",
-    "description": "Za sva pitanja kontaktirajte nas putem elektronske pošte, telefona ili na našoj adresi",
+    "description": "Za sva pitanja kontaktirajte nas putem elektronske pošte, telefona ili na našoj adresi.",
+    "invite": "Radujemo se razgovoru — bilo da vas zanimaju naši proizvodi ili mogućnost saradnje.",
+    "addressLabel": "Adresa",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
     "address": "Karadjordjeva 123 Valjevo",
     "email": "office@markus.rs",
     "phone": "+381 63 222 333"
   },
   "footer": {
     "tagline": "Pouzdani partner u proizvodnji i distribuciji vlažnih maramica više od tri decenije.",
+    "navTitle": "Navigacija",
+    "contactTitle": "Kontakt",
     "legal": "Pravni deo",
     "rights": "Sva prava zadržana",
     "privacy": "Politika privatnosti",

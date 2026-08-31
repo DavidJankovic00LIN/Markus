@@ -1,37 +1,8 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
-
-function useInView(threshold = 0.2) {
-  const ref = useRef<HTMLDivElement | null>(null);
-  const [inView, setInView] = useState(false);
-
-  useEffect(() => {
-    const element = ref.current;
-    if (!element) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setInView(true);
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold }
-    );
-
-    observer.observe(element);
-
-    return () => {
-      observer.disconnect();
-    };
-  }, [threshold]);
-
-  return { ref, inView };
-}
+import Reveal from './Reveal';
+import { useInView } from './useInView';
 
 export default function Contact() {
   const t = useTranslations('contact');
@@ -39,30 +10,35 @@ export default function Contact() {
   const address = useInView();
   const email = useInView();
   const phone = useInView();
+  const rule = useInView(0.5);
 
   return (
     <section id="contact" className="py-10 sm:py-12 md:py-20 px-[41px] sm:px-6 bg-white">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-6 sm:mb-8 md:mb-10">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
-            {t('title')}
-          </h2>
-          <div className="w-20 sm:w-24 h-1 bg-brand mx-auto" />
+          <Reveal variant="up">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
+              {t('title')}
+            </h2>
+          </Reveal>
+          <div
+            ref={rule.ref}
+            className={`w-20 sm:w-24 h-1 bg-brand mx-auto rule-grow ${
+              rule.inView ? 'is-visible' : ''
+            }`}
+          />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start">
           {/* Text column */}
-          <div className="space-y-4 sm:space-y-5 md:space-y-6 max-w-xl">
+          <Reveal variant="up" delay={80} className="space-y-4 sm:space-y-5 md:space-y-6 max-w-xl">
             <p className="text-xs sm:text-sm md:text-base text-gray-700">
               {t('description')}
             </p>
             <p className="text-xs sm:text-sm md:text-base text-gray-700">
-              {/* Dodatni opis po potrebi; ostavljamo jednostavan i čist tekst */}
-              {/* Ovo se može kasnije lokalizovati ako bude potrebno */}
-              Radujemo se saradnji i stojimo vam na raspolaganju za sva pitanja u vezi sa našim
-              proizvodima i uslugama.
+              {t('invite')}
             </p>
-          </div>
+          </Reveal>
 
           {/* Icons column */}
           <div className="flex flex-col items-start gap-6 sm:gap-8">
@@ -98,7 +74,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-[11px] sm:text-xs uppercase tracking-wide text-gray-500 mb-0.5">
-                  Adresa
+                  {t('addressLabel')}
                 </p>
                 <p className="text-xs sm:text-sm md:text-base text-gray-800 font-medium">
                   {t('address')}
@@ -132,11 +108,14 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-[11px] sm:text-xs uppercase tracking-wide text-gray-500 mb-0.5">
-                  Email
+                  {t('emailLabel')}
                 </p>
-                <p className="text-xs sm:text-sm md:text-base text-gray-800 font-medium">
+                <a
+                  href={`mailto:${t('email')}`}
+                  className="text-xs sm:text-sm md:text-base text-gray-800 font-medium hover:text-brand transition-colors"
+                >
                   {t('email')}
-                </p>
+                </a>
               </div>
             </div>
 
@@ -166,11 +145,14 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-[11px] sm:text-xs uppercase tracking-wide text-gray-500 mb-0.5">
-                  Telefon
+                  {t('phoneLabel')}
                 </p>
-                <p className="text-xs sm:text-sm md:text-base text-gray-800 font-medium">
+                <a
+                  href={`tel:${t('phone').replace(/\s/g, '')}`}
+                  className="text-xs sm:text-sm md:text-base text-gray-800 font-medium hover:text-brand transition-colors"
+                >
                   {t('phone')}
-                </p>
+                </a>
               </div>
             </div>
           </div>

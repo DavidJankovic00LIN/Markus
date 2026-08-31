@@ -10,9 +10,44 @@
     "title": "Markus Co",
     "subtitle": "Wet wipes for all your needs"
   },
+  "trustBar": {
+    "since": {
+      "value": "Since 1994",
+      "label": "Family production"
+    },
+    "location": {
+      "value": "Valjevo, Serbia",
+      "label": "Where we work"
+    },
+    "brands": {
+      "value": "Own brands",
+      "label": "Baby Fit, Perfecto, Universal…"
+    },
+    "contract": {
+      "value": "Contract manufacturing",
+      "label": "For partners"
+    },
+    "ctaProducts": "Our products",
+    "ctaPartner": "Become a partner"
+  },
   "about": {
     "title": "About Us",
-    "description": "Markus Co is a family company from Valjevo, founded in 1994, with a clear mission to provide consumers with quality and affordable personal hygiene products. With modern equipment and a dedicated team, we develop our own brands and successfully cooperate with domestic and international partners, building trust through quality, responsibility and innovation."
+    "description": "Markus Co is a family company from Valjevo, founded in 1994, with a clear mission to provide consumers with quality and affordable personal hygiene products. With modern equipment and a dedicated team, we develop our own brands and successfully cooperate with domestic and international partners, building trust through quality, responsibility and innovation.",
+    "mission": "We believe hygiene should be simple, affordable and safe — for the youngest and for the whole family. At the same time, we offer partners reliable production, clear communication and quality they can count on.",
+    "stats": {
+      "year": {
+        "value": "1994",
+        "label": "Year founded"
+      },
+      "experience": {
+        "value": "30+",
+        "label": "Years of experience"
+      },
+      "home": {
+        "value": "Valjevo",
+        "label": "Our home"
+      }
+    }
   },
   "whyUs": {
     "title": "Why Us",
@@ -36,7 +71,12 @@
   },
   "products": {
     "title": "Our Products",
-    "description": "Our line of wet wipes is designed to meet the most diverse needs - from gentle baby care, through universal cleaning, to specialized disinfection solutions. Quality, practicality, and reliability in every package.",
+    "description": "Our line of wet wipes is designed to meet the most diverse needs - from gentle baby care, through universal cleaning, to specialized disinfection solutions. Quality, practicality, and reliability in every package. The line is intended both for retail and for partners looking for a reliable manufacturer.",
+    "categories": {
+      "baby": "Baby care",
+      "cleaning": "Cleaning",
+      "hygiene": "Hygiene"
+    },
     "babyFit": {
       "title": "Baby Fit Wet Wipes",
       "description": "Baby Fit wet wipes keep your baby's skin soft and fresh. Gently clean and nourish with every diaper change. Soft and full, alcohol-free, pH neutral, and enriched with Vitamin E. Perfect for gentle cleaning of baby's skin without water. Can be used by the whole family.",
@@ -102,17 +142,38 @@
   },
   "collaboration": {
     "title": "Contract Manufacturing",
-    "description": "We provide contract manufacturing services according to your specifications and requirements. Our experience and technology enable us to produce products that meet your needs."
+    "description": "Alongside our own brands, we offer contract manufacturing and private label solutions to your specifications. You bring the idea and requirements — we produce, pack and help get the product to market.",
+    "points": {
+      "brand": {
+        "title": "Built around your brand",
+        "text": "We manufacture wet wipes to your specifications, respecting the identity of your brand."
+      },
+      "packaging": {
+        "title": "Custom packaging",
+        "text": "Format, quantity and pack design can be aligned with your market and customers."
+      },
+      "partnership": {
+        "title": "Long-term partnership",
+        "text": "We build relationships on trust, clear communication and consistent quality from delivery to delivery."
+      }
+    },
+    "cta": "Contact us"
   },
   "contact": {
     "title": "Contact",
-    "description": "For all questions, contact us via email, phone, or at our address",
+    "description": "For all questions, contact us via email, phone, or at our address.",
+    "invite": "We look forward to talking — whether you are interested in our products or a partnership.",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
     "address": "Karadjordjeva 123 Valjevo",
     "email": "office@markus.rs",
     "phone": "+381 63 222 333"
   },
   "footer": {
     "tagline": "Reliable partner in the production and distribution of wet wipes for more than three decades.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
     "legal": "Legal",
     "rights": "All rights reserved",
     "privacy": "Privacy Policy",

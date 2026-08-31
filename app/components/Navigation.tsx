@@ -7,6 +7,9 @@ import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navigation() {
   const t = useTranslations('nav');
+  const tContact = useTranslations('contact');
+  const phone = tContact('phone');
+  const phoneHref = `tel:${phone.replace(/\s/g, '')}`;
 
   const [hidden, setHidden] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -59,6 +62,26 @@ export default function Navigation() {
     >
       {/* Logo Section - 100px height on desktop, smaller on mobile */}
       <div className="h-[70px] sm:h-[80px] md:h-[100px] flex items-center justify-center bg-white px-1 sm:px-2 md:px-4 relative border-0">
+        <a
+          href={phoneHref}
+          className="hidden md:flex absolute left-4 items-center gap-2 text-sm text-gray-700 hover:text-brand transition-colors"
+        >
+          <svg
+            className="w-4 h-4 text-brand"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+            />
+          </svg>
+          {phone}
+        </a>
         <Image
           src="/assets/markus_logo.png"
           alt="Markus Logo"

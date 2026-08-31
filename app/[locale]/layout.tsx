@@ -3,12 +3,18 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import type { Metadata } from "next";
-import { Dancing_Script } from 'next/font/google';
+import { Dancing_Script, Plus_Jakarta_Sans } from 'next/font/google';
 
 const dancingScript = Dancing_Script({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-dancing-script',
+});
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-sans',
 });
 
 export const metadata: Metadata = {
@@ -36,8 +42,8 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={dancingScript.variable}>
-      <body>
+    <html lang={locale} className={`${plusJakarta.variable} ${dancingScript.variable}`}>
+      <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

@@ -1,5 +1,6 @@
-import Navigation from '../components/Navigation';
+﻿import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
+import TrustBar from '../components/TrustBar';
 import About from '../components/About';
 import WhyUs from '../components/WhyUs';
 import Products from '../components/Products';
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="scroll-smooth pt-[140px]">
       <Navigation />
       <Hero />
+      <TrustBar />
       <About />
       <WhyUs />
       <Products />

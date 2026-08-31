@@ -12,9 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         brand: "#d2b277",
+        cream: "#f6f0e4",
       },
       fontFamily: {
-        'cursive': ['var(--font-dancing-script)', 'cursive'],
+        sans: ['var(--font-sans)', 'Arial', 'Helvetica', 'sans-serif'],
+        cursive: ['var(--font-dancing-script)', 'cursive'],
       },
     },
   },
