@@ -64,7 +64,7 @@ export default function Navigation() {
       <div className="h-[70px] sm:h-[80px] md:h-[100px] flex items-center justify-center bg-white px-1 sm:px-2 md:px-4 relative border-0">
         <a
           href={phoneHref}
-          className="hidden md:flex absolute left-4 items-center gap-2 text-sm text-gray-700 hover:text-brand transition-colors"
+          className="hidden md:flex absolute left-4 items-center gap-2 text-base text-gray-700 hover:text-brand transition-colors"
         >
           <svg
             className="w-4 h-4 text-brand"
@@ -99,25 +99,25 @@ export default function Navigation() {
       <div className="h-[44px] sm:h-[50px] md:h-[60px] bg-brand flex items-center justify-center gap-1 sm:gap-2 md:gap-8 px-1 sm:px-2 md:px-4 overflow-x-auto border-0 border-b-0" style={{ borderBottom: 'none', boxShadow: 'none' }}>
         <button
           onClick={() => scrollToSection('about')}
-          className="text-white hover:opacity-80 transition-colors font-medium text-xs sm:text-sm md:text-base whitespace-nowrap px-0.5 sm:px-1 md:px-2"
+          className="text-white hover:opacity-80 transition-colors font-medium text-sm sm:text-base md:text-lg whitespace-nowrap px-0.5 sm:px-1 md:px-2"
         >
           {t('about')}
         </button>
         <button
           onClick={() => scrollToSection('products')}
-          className="text-white hover:opacity-80 transition-colors font-medium text-xs sm:text-sm md:text-base whitespace-nowrap px-0.5 sm:px-1 md:px-2"
+          className="text-white hover:opacity-80 transition-colors font-medium text-sm sm:text-base md:text-lg whitespace-nowrap px-0.5 sm:px-1 md:px-2"
         >
           {t('products')}
         </button>
         <button
           onClick={() => scrollToSection('collaboration')}
-          className="text-white hover:opacity-80 transition-colors font-medium text-xs sm:text-sm md:text-base whitespace-nowrap px-0.5 sm:px-1 md:px-2"
+          className="text-white hover:opacity-80 transition-colors font-medium text-sm sm:text-base md:text-lg whitespace-nowrap px-0.5 sm:px-1 md:px-2"
         >
           {t('collaboration')}
         </button>
         <button
           onClick={() => scrollToSection('contact')}
-          className="text-white hover:opacity-80 transition-colors font-medium text-xs sm:text-sm md:text-base whitespace-nowrap px-0.5 sm:px-1 md:px-2"
+          className="text-white hover:opacity-80 transition-colors font-medium text-sm sm:text-base md:text-lg whitespace-nowrap px-0.5 sm:px-1 md:px-2"
         >
           {t('contact')}
         </button>

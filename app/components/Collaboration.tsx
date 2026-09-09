@@ -29,7 +29,7 @@ export default function Collaboration() {
     >
       <div className="max-w-5xl mx-auto text-center">
         <Reveal variant="up">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
             {t('title')}
           </h2>
         </Reveal>
@@ -40,7 +40,7 @@ export default function Collaboration() {
           }`}
         />
         <Reveal variant="up" delay={80}>
-          <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed px-2 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed px-2 max-w-3xl mx-auto">
             {t('description')}
           </p>
         </Reveal>
@@ -49,10 +49,10 @@ export default function Collaboration() {
           {points.map((point, index) => (
             <Reveal key={point.title} variant="flip" delay={index * 140} className="h-full">
               <div className="bg-white/90 p-4 sm:p-5 md:p-6 rounded-lg shadow-md text-left hover:-translate-y-1 hover:shadow-lg transition-all duration-300 h-full">
-                <h3 className="text-sm sm:text-base md:text-lg font-bold text-gray-800 mb-1.5 sm:mb-2">
+                <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-1.5 sm:mb-2">
                   {point.title}
                 </h3>
-                <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
                   {point.text}
                 </p>
               </div>
@@ -63,7 +63,7 @@ export default function Collaboration() {
         <Reveal variant="scale" delay={280}>
           <button
             onClick={() => scrollToSection('contact')}
-            className="mt-6 sm:mt-8 md:mt-10 px-6 py-2.5 md:px-8 md:py-3 bg-brand text-white text-sm sm:text-base font-medium rounded-md hover:opacity-90 hover:-translate-y-0.5 transition-all"
+            className="mt-6 sm:mt-8 md:mt-10 px-6 py-2.5 md:px-8 md:py-3 bg-brand text-white text-base sm:text-lg font-medium rounded-md hover:opacity-90 hover:-translate-y-0.5 transition-all"
           >
             {t('cta')}
           </button>

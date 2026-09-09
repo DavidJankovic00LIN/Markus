@@ -28,10 +28,10 @@ export default function TrustBar() {
           {items.map((item, index) => (
             <Reveal key={item.value} variant="flip" delay={index * 120}>
               <div className="text-center">
-                <p className="text-sm sm:text-base md:text-lg font-bold text-[#5c4a2e]">
+                <p className="text-base sm:text-lg md:text-xl font-bold text-[#5c4a2e]">
                   <CountUpText value={item.value} />
                 </p>
-                <p className="mt-1 text-[11px] sm:text-xs md:text-sm text-[#7a6e5c]">
+                <p className="mt-1 text-xs sm:text-sm md:text-base text-[#7a6e5c]">
                   {item.label}
                 </p>
               </div>
@@ -42,13 +42,13 @@ export default function TrustBar() {
         <Reveal variant="up" delay={400} className="mt-6 sm:mt-8 md:mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
           <button
             onClick={() => scrollToSection('products')}
-            className="w-full sm:w-auto px-6 py-2.5 md:px-8 md:py-3 bg-brand text-white text-sm sm:text-base font-medium rounded-md hover:opacity-90 hover:-translate-y-0.5 transition-all"
+            className="w-full sm:w-auto px-6 py-2.5 md:px-8 md:py-3 bg-brand text-white text-base sm:text-lg font-medium rounded-md hover:opacity-90 hover:-translate-y-0.5 transition-all"
           >
             {t('ctaProducts')}
           </button>
           <button
             onClick={() => scrollToSection('collaboration')}
-            className="w-full sm:w-auto px-6 py-2.5 md:px-8 md:py-3 bg-white text-[#5c4a2e] text-sm sm:text-base font-medium rounded-md border border-brand hover:bg-brand/15 hover:-translate-y-0.5 transition-all"
+            className="w-full sm:w-auto px-6 py-2.5 md:px-8 md:py-3 bg-white text-[#5c4a2e] text-base sm:text-lg font-medium rounded-md border border-brand hover:bg-brand/15 hover:-translate-y-0.5 transition-all"
           >
             {t('ctaPartner')}
           </button>

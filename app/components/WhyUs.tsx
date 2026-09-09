@@ -37,7 +37,7 @@ export default function WhyUs() {
     >
       <div className="max-w-6xl mx-auto">
         <Reveal variant="up">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
             {t('title')}
           </h2>
         </Reveal>
@@ -59,13 +59,13 @@ export default function WhyUs() {
                     className="object-contain"
                   />
                 </div>
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
                   {reason.title}
                 </h3>
-                <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-2 sm:mb-3">
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-2 sm:mb-3">
                   {reason.description}
                 </p>
-                <p className="text-[11px] sm:text-xs md:text-sm text-gray-500 leading-relaxed">
+                <p className="text-xs sm:text-sm md:text-base text-gray-500 leading-relaxed">
                   {reason.details}
                 </p>
               </div>

@@ -16,7 +16,7 @@ export default function LanguageSwitcher() {
     <div className="flex gap-1 sm:gap-2 items-center">
       <button
         onClick={() => switchLanguage('sr')}
-        className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded text-xs sm:text-sm transition-colors ${
+        className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded text-sm sm:text-base transition-colors ${
           locale === 'sr'
             ? 'bg-brand text-white'
             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
@@ -26,7 +26,7 @@ export default function LanguageSwitcher() {
       </button>
       <button
         onClick={() => switchLanguage('en')}
-        className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded text-xs sm:text-sm transition-colors ${
+        className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded text-sm sm:text-base transition-colors ${
           locale === 'en'
             ? 'bg-brand text-white'
             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'

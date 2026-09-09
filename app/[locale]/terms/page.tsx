@@ -7,7 +7,7 @@ export default function TermsPage() {
       <Navigation />
       <main className="min-h-screen bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
+          <h1 className="text-5xl font-bold text-gray-800 mb-8 text-center">
             Uslovi korišćenja
           </h1>
           <div className="w-24 h-1 bg-brand mx-auto mb-12"></div>

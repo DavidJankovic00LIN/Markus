@@ -49,7 +49,7 @@ export default function Products() {
     <section id="products" className="py-6 sm:py-8 md:py-16 px-[33px] sm:px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <Reveal variant="up">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
             {t('title')}
           </h2>
         </Reveal>
@@ -60,7 +60,7 @@ export default function Products() {
           }`}
         />
         <Reveal variant="up" delay={80}>
-          <p className="text-center text-xs sm:text-sm md:text-base text-gray-700 mb-6 sm:mb-8 md:mb-12 max-w-3xl mx-auto px-2">
+          <p className="text-center text-sm sm:text-base md:text-lg text-gray-700 mb-6 sm:mb-8 md:mb-12 max-w-3xl mx-auto px-2">
             {t('description')}
           </p>
         </Reveal>
@@ -78,18 +78,18 @@ export default function Products() {
                   />
                 </div>
                 <div className="p-3 sm:p-4 md:p-6 flex flex-col flex-grow">
-                  <span className="self-start mb-1.5 sm:mb-2 text-[10px] sm:text-xs font-medium tracking-wide uppercase text-brand border border-brand/40 rounded-full px-2 py-0.5">
+                  <span className="self-start mb-1.5 sm:mb-2 text-[11px] sm:text-sm font-medium tracking-wide uppercase text-brand border border-brand/40 rounded-full px-2 py-0.5">
                     {t(`categories.${product.category}`)}
                   </span>
-                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-1 sm:mb-2">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-1 sm:mb-2">
                     {t(`${product.key}.title`)}
                   </h3>
-                  <p className="text-gray-600 text-xs sm:text-xs md:text-sm line-clamp-3 mb-3 sm:mb-4 flex-grow">
+                  <p className="text-gray-600 text-sm sm:text-sm md:text-base line-clamp-3 mb-3 sm:mb-4 flex-grow">
                     {t(`${product.key}.description`)}
                   </p>
                   <button
                     onClick={() => setSelectedProduct(product.key)}
-                    className="mt-auto text-xs sm:text-sm md:text-base text-brand font-medium hover:underline transition-colors text-left"
+                    className="mt-auto text-sm sm:text-base md:text-lg text-brand font-medium hover:underline transition-colors text-left"
                   >
                     {t('readMore')}
                   </button>

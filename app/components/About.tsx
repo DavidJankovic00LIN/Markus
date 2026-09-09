@@ -19,7 +19,7 @@ export default function About() {
     <section id="about" className="py-6 sm:py-8 md:py-16 px-[33px] sm:px-4 bg-white">
       <div className="max-w-5xl mx-auto">
         <Reveal variant="up">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-800 text-center mb-2 sm:mb-3 md:mb-4">
             {t('title')}
           </h2>
         </Reveal>
@@ -32,10 +32,10 @@ export default function About() {
 
         <div className="grid md:grid-cols-[1.4fr_1fr] gap-8 md:gap-12 items-center">
           <Reveal variant="up" delay={80} className="space-y-4 text-center md:text-left">
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
               {t('description')}
             </p>
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
               {t('mission')}
             </p>
           </Reveal>
@@ -44,10 +44,10 @@ export default function About() {
             {stats.map((stat, index) => (
               <Reveal key={stat.label} variant="flip" delay={160 + index * 140}>
                 <div className="text-center md:text-left">
-                  <p className="text-xl sm:text-2xl md:text-3xl font-bold text-brand">
+                  <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand">
                     <CountUpText value={stat.value} duration={index === 0 ? 1800 : 1400} />
                   </p>
-                  <p className="mt-0.5 text-[11px] sm:text-xs md:text-sm text-gray-600">
+                  <p className="mt-0.5 text-xs sm:text-sm md:text-base text-gray-600">
                     {stat.label}
                   </p>
                 </div>

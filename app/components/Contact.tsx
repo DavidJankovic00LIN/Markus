@@ -17,7 +17,7 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-6 sm:mb-8 md:mb-10">
           <Reveal variant="up">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">
               {t('title')}
             </h2>
           </Reveal>
@@ -32,10 +32,10 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start">
           {/* Text column */}
           <Reveal variant="up" delay={80} className="space-y-4 sm:space-y-5 md:space-y-6 max-w-xl">
-            <p className="text-xs sm:text-sm md:text-base text-gray-700">
+            <p className="text-sm sm:text-base md:text-lg text-gray-700">
               {t('description')}
             </p>
-            <p className="text-xs sm:text-sm md:text-base text-gray-700">
+            <p className="text-sm sm:text-base md:text-lg text-gray-700">
               {t('invite')}
             </p>
           </Reveal>
@@ -73,10 +73,10 @@ export default function Contact() {
                 </svg>
               </div>
               <div>
-                <p className="text-[11px] sm:text-xs uppercase tracking-wide text-gray-500 mb-0.5">
+                <p className="text-xs sm:text-sm uppercase tracking-wide text-gray-500 mb-0.5">
                   {t('addressLabel')}
                 </p>
-                <p className="text-xs sm:text-sm md:text-base text-gray-800 font-medium">
+                <p className="text-sm sm:text-base md:text-lg text-gray-800 font-medium">
                   {t('address')}
                 </p>
               </div>
@@ -107,12 +107,12 @@ export default function Contact() {
                 </svg>
               </div>
               <div>
-                <p className="text-[11px] sm:text-xs uppercase tracking-wide text-gray-500 mb-0.5">
+                <p className="text-xs sm:text-sm uppercase tracking-wide text-gray-500 mb-0.5">
                   {t('emailLabel')}
                 </p>
                 <a
                   href={`mailto:${t('email')}`}
-                  className="text-xs sm:text-sm md:text-base text-gray-800 font-medium hover:text-brand transition-colors"
+                  className="text-sm sm:text-base md:text-lg text-gray-800 font-medium hover:text-brand transition-colors"
                 >
                   {t('email')}
                 </a>
@@ -144,12 +144,12 @@ export default function Contact() {
                 </svg>
               </div>
               <div>
-                <p className="text-[11px] sm:text-xs uppercase tracking-wide text-gray-500 mb-0.5">
+                <p className="text-xs sm:text-sm uppercase tracking-wide text-gray-500 mb-0.5">
                   {t('phoneLabel')}
                 </p>
                 <a
                   href={`tel:${t('phone').replace(/\s/g, '')}`}
-                  className="text-xs sm:text-sm md:text-base text-gray-800 font-medium hover:text-brand transition-colors"
+                  className="text-sm sm:text-base md:text-lg text-gray-800 font-medium hover:text-brand transition-colors"
                 >
                   {t('phone')}
                 </a>

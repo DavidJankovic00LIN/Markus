@@ -42,14 +42,14 @@ export default function Footer() {
                 priority
               />
             </div>
-            <p className="text-xs sm:text-sm md:text-base max-w-xs text-gray-700">
+            <p className="text-sm sm:text-base md:text-lg max-w-xs text-gray-700">
               {t('tagline')}
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <span className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-gray-600">
+            <span className="text-sm sm:text-base font-semibold uppercase tracking-wide text-gray-600">
               {t('navTitle')}
             </span>
             <ul className="mt-2 sm:mt-3 flex flex-col gap-1.5 sm:gap-2">
@@ -57,7 +57,7 @@ export default function Footer() {
                 <li key={item.id}>
                   <button
                     onClick={() => scrollToSection(item.id)}
-                    className="text-xs sm:text-sm md:text-base text-gray-900 hover:text-brand transition-colors text-left"
+                    className="text-sm sm:text-base md:text-lg text-gray-900 hover:text-brand transition-colors text-left"
                   >
                     {item.label}
                   </button>
@@ -68,10 +68,10 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <span className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-gray-600">
+            <span className="text-sm sm:text-base font-semibold uppercase tracking-wide text-gray-600">
               {t('contactTitle')}
             </span>
-            <ul className="mt-2 sm:mt-3 flex flex-col gap-1.5 sm:gap-2 text-xs sm:text-sm md:text-base text-gray-900">
+            <ul className="mt-2 sm:mt-3 flex flex-col gap-1.5 sm:gap-2 text-sm sm:text-base md:text-lg text-gray-900">
               <li>{tContact('address')}</li>
               <li>
                 <a
@@ -92,20 +92,20 @@ export default function Footer() {
 
         {/* Bottom line */}
         <div className="border-t border-gray-200 pt-4 sm:pt-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[10px] sm:text-xs md:text-sm text-gray-600 text-center sm:text-left">
+          <p className="text-[11px] sm:text-sm md:text-base text-gray-600 text-center sm:text-left">
             © {new Date().getFullYear()} Markus Co. {t('rights')}
           </p>
           <div className="flex items-center gap-3">
             <Link
               href="/privacy"
-              className="text-[10px] sm:text-xs md:text-sm text-gray-900 hover:text-brand transition-colors"
+              className="text-[11px] sm:text-sm md:text-base text-gray-900 hover:text-brand transition-colors"
             >
               {t('privacy')}
             </Link>
             <span className="text-gray-400">/</span>
             <Link
               href="/terms"
-              className="text-[10px] sm:text-xs md:text-sm text-gray-900 hover:text-brand transition-colors"
+              className="text-[11px] sm:text-sm md:text-base text-gray-900 hover:text-brand transition-colors"
             >
               {t('terms')}
             </Link>
